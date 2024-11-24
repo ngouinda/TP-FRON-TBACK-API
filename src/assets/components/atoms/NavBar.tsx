@@ -18,7 +18,15 @@ const NavBar: React.FC = () => {
           Tree Learning
         </div>
 
-        <div className="hidden md:flex space-x-4">
+        <div className="hidden md:flex space-x-4" >
+            {/* IDENTIFIANTS  */}
+            {/* <Link to="">
+                        ID: alan@alan.fr 
+                </Link>
+                <Link to="">
+                      MDP: pass_1234
+                </Link> */}
+                {/* _____________________________________________ */}
           {/* Afficher le lien "Modules" uniquement si l'utilisateur est connecté */}
           {isLoggedIn && (
             <Link to="/module" className="text-white hover:text-gray-300">
